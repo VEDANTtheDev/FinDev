@@ -167,6 +167,34 @@ export default function Contact() {
                     </p>
                   </div>
                 </li>
+                <li className="flex items-start space-x-3">
+                  <div className="w-7 h-7 bg-white/20 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="text-yellow-300 text-xs">✦</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-medium text-sm">
+                      Community Learning
+                    </p>
+                    <p className="text-indigo-200 text-xs mt-0.5">
+                      Learn alongside like-minded students, share knowledge, and
+                      grow together in a collaborative space.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <div className="w-7 h-7 bg-white/20 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="text-yellow-300 text-xs">✦</span>
+                  </div>
+                  <div>
+                    <p className="text-white font-medium text-sm">
+                      Bite-Sized Learning
+                    </p>
+                    <p className="text-indigo-200 text-xs mt-0.5">
+                      Access bite-sized lessons designed to fit your busy
+                      schedule and maximize learning efficiency.
+                    </p>
+                  </div>
+                </li>
               </ul>
 
               {/* Footer tag */}
@@ -320,6 +348,33 @@ export default function Contact() {
                     <a
                       href="#"
                       className="text-rose-600 hover:text-rose-700 transition-colors"
+                    >
+                      <span className="text-sm">LinkedIn</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl mb-6 border border-indigo-100">
+                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center text-white font-bold text-xl">
+                  V
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-bold text-gray-900 mb-1">
+                    Saakshi Gala
+                  </h4>
+                  <p className="text-indigo-600 font-medium mb-2">
+                    Finance Student
+                  </p>
+                  <p className="text-gray-600 text-sm mb-3">
+                    B.Com graduate, currently pursuing MMS in Finance.
+                    Interested in financial analysis, investment strategies, and
+                    understanding market trends.
+                  </p>
+                  <div className="flex space-x-3">
+                    <a
+                      href="https://www.linkedin.com/in/saakshi-gala-242a1b389/"
+                      className="text-indigo-600 hover:text-indigo-700 transition-colors"
                     >
                       <span className="text-sm">LinkedIn</span>
                     </a>
